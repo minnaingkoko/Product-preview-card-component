@@ -96,4 +96,36 @@
             padding: 10px;
         }
 	}
+    @media only screen and (max-width: 350px) {
+		.container {
+            flex-direction: column;
+			width: 300px;
+            height: 600px;
+            border-radius: 15px;
+		}
+        .left {
+            width: 300px;
+            height: 200px;
+        }
+        .right {
+            width: 300px;
+            height: 350px;
+        }
+        .product {
+            border-radius: 15px 15px 0 0;
+        }
+        .right {
+            padding: 24px;
+        }
+        .heading {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        .price {
+            font-size: 28px;
+        }
+        .add_btn {
+            padding: 10px;
+        }
+	}
 </style>
